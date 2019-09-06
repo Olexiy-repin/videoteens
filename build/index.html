@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="shortcut icon" href="./images/favicon.png" type="image/png">
+  <title>Бесплатный мастер-класс</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <header class="header">
+      <div class="container">
+          <div class="header__logo-container">
+              <svg class="header__logo">
+                  <use href="./images/header/logo.svg#logo"></use>
+              </svg>
+          </div>
+      </div>
+  </header>
+  <main class="main">
+      <div class="container">
+          <div class="content-container">
+              <div class="left-content">
+                  <p class="left-content__subtitle">Узнайте за 5 минут</p>
+                  <h2 class="left-content__title">Как не дать потеряться ребёнку <span>в мире роботов и технологий</span>
+                  </h2>
+                  <div class="tablet">
+                      <div class="tablet__content">
+                          <picture>
+                              <source media="(min-width: 1200px)"
+                                  srcset="./images/main/tablet_img_1200.png 473w, ./images/main/tablet_img_1200@2x.png 946w"
+                                  sizes="473px">
+                              <source media="(min-width: 768px)"
+                                  srcset="./images/main/tablet_img_768.png 353w, ./images/main/tablet_img_768@2x.png 705w"
+                                  sizes="353px">
+                              <source media="(min-width: 320px)"
+                                  srcset="./images/main/tabletImg.png 209w, ./images/main/tabletImg@2x.png 417w"
+                                  sizes="209px">
+                              <img class="tablet__content-img" src="./images/main/tabletImg.png"
+                                  alt="There must be an image">
+                          </picture>
+                      </div>
+                  </div>
+              </div>
+              <div class="right-content">
+                  <h1 class="right-content__title">О компании GoITeens</h1>
+                  <div class="right-content__container">
+                      <div class="right-content__item">
+                          <p class="right-content__item-text">Компания GoITeens — открыта как подростковое направление
+                              компании GoIT, которая на протяжении 4 лет получает награды, за лучшее IT-образование в
+                              Украине.</p>
+                          <div class="right-content__awards">
+                              <div class="right-content__award">
+                                  <img srcset="../images/main/award1.png 57w, ../images/main/award1@2x.png 114w"
+                                      sizes="57px" src="../images/main/award1.png" alt="award"
+                                      class="right-content__award-img">
+                              </div>
+                              <div class="right-content__award">
+                                  <img srcset="../images/main/award2.png 58w, ../images/main/award2@2x.png 114w"
+                                      sizes="58px" src="../images/main/award2.png" alt="award"
+                                      class="right-content__award-img">
+                              </div>
+                              <div class="right-content__award">
+                                  <img srcset="../images/main/award3.png 64w, ../images/main/award3@2x.png 128w"
+                                      sizes="64px" src="../images/main/award3.png" alt="award"
+                                      class="right-content__award-img">
+                              </div>
+                          </div>
+                      </div>
+                      <div class="right-content__item">
+                          <p class="right-content__item-right-text">Мы верим, что дети — наше будущее. Поэтому запускаем
+                              наиболее востребованные
+                              в будущем направления: <span>программирование, робототехника</span>
+                              <span>и диджитал арт</span> для подростков 8-15 лет.
+                          </p>
+                      </div>
+                  </div>
+                  <p class="right-content__branches">Сейчас филиалы доступны
+                      в четырёх городах Украины: <span>Киеве,</span> <span>Харькове,</span> <span>Львове</span> и
+                      <span>Виннице.</span>
+                  </p>
+                  <h2 class="right-content__faq-title"><span>Хотите узнать больше?</span> Приходите на открытые уроки в
+                      вашем городе.</h2>
+                  <button class="right-content__btn">ЗАРЕГИСТРИРОВАТЬСЯ
+                      НА ОТКРЫТЫЙ УРОК</button>
+              </div>
+          </div>
+      </div>
+  </main>
+
+  <div class="modal">
+    <div class="form-container">
+      <form class="modal-form modalDialog-form" method="post">
+        <h2 class="modal-form__title">Оставьте заявку на участие в бесплатной презентации</h2>
+        <div class="form-modal__input-container">
+          <div class="modalDialog-form-row">
+            <label class="form-modal__label modalDialog-form-row-name">
+              Имя:
+              <input type="text" name="name" required="">
+            </label>
+          </div>
+          <div class="modalDialog-form-row">
+            <label class="form-modal__label modalDialog-form-row-tel">
+              Телефон:
+              <input type="tel" name="phone">
+            </label>
+          </div>
+          <div class="modalDialog-form-row">
+            <label class="form-modal__label modalDialog-form-row-email">
+              E-mail:
+              <input type="email" name="email" required="">
+            </label>
+          </div>
+          <div class="modalDialog-form-check">
+            <input type="checkbox" class="checkbox" id="checkbox" checked="">
+            <label for="checkbox">Принимаю договор оферты и <br> даю согласие на обработку моих <br>
+              персональных данных</label>
+          </div>
+        </div>
+        <input type="hidden" name="utm_source" value="">
+        <input type="hidden" name="utm_medium" value="">
+        <input type="hidden" name="utm_term" value="">
+        <input type="hidden" name="utm_campaign" value="">
+        <input type="hidden" name="utm_content" value="">
+
+        <div class="submit-wrap">
+          <button class="modal-form__btn link_begin submit" type="submit">оставить заявку</button>
+        </div>
+      </form>
+      <button class="close-btn">
+        <svg class="close-btn__svg">
+          <use href="./images/modal/close.svg#close"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <script src="./js/main.js" defer></script>
+</body>
+
+</html>

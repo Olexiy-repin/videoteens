@@ -1,0 +1,253 @@
+.modal {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s linear;
+}
+
+.modal_active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal .modalDialog-form-check:last-of-type {
+  text-align: center;
+}
+
+.modal .modalDialog-form-row {
+  margin-bottom: 2.2rem;
+}
+
+.form-container {
+  width: 95%;
+  margin: auto;
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 1.4rem;
+  right: 1rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.close-btn__svg {
+  width: 1rem;
+  height: 1.6rem;
+  ;
+}
+
+.modal-form {
+  background-color: #fff;
+  padding: 3.4rem 0;
+}
+
+.modal-form__title {
+  font-family: 'GothamB';
+  font-size: 1.4rem;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 4.6rem;
+  line-height: 1.2;
+}
+
+.modal-form__title::after {
+  display: block;
+  content: "";
+  width: 12rem;
+  height: 4px;
+  background-color: #00bcd4;
+  position: absolute;
+  bottom: -1rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.modal-form__btn {
+  font-family: 'GothamB';
+  font-size: 1.0625rem;
+  color: #fff;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #ffb41b 0%, #fb193c 100%);
+  background-size: 130% auto;
+  width: 20rem;
+  padding: 1.5rem 0;
+  letter-spacing: .6px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.modal-form__btn:hover {
+  transition: all .5s linear;
+  background-position: right center;
+}
+
+.form-modal__input-container {
+  display: flex;
+  flex-direction: column;
+  width: 21.5rem;
+  margin: auto;
+  margin-bottom: 2rem;
+  padding-right: 1.3rem;
+}
+
+.modalDialog-form-row {
+  margin-bottom: .8rem;
+  width: 100%;
+}
+
+.modalDialog-form-row:last-of-type {
+  margin-bottom: 0;
+}
+
+.modal .modalDialog-form-row {
+  margin-bottom: 2.2rem;
+}
+
+.form-modal__label {
+  font-family: 'ProximaR';
+  font-size: 0.875rem;
+  letter-spacing: .8px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.form-modal__label input {
+  display: inline-block;
+  font-family: 'ProximaR';
+  font-size: 0.875rem;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 1px solid #000;
+  margin-left: 0.5rem;
+  width: 15rem;
+  padding-bottom: .2rem;
+}
+
+.modal .modalDialog-form-check:last-of-type {
+  text-align: center;
+}
+
+.checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  margin: 10px 0 0 20px;
+}
+
+.checkbox+label {
+  font-family: 'ProximaR';
+  font-size: 0.75rem;
+  text-align: center;
+  position: relative;
+  line-height: 1.125rem;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.checkbox+label:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -2rem;
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.4);
+  transition: .2s;
+}
+
+.checkbox+label:after {
+  display: none;
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: -1.8rem;
+  width: 9px;
+  height: 9px;
+  background: #00bcd4;
+  transition: .2s;
+}
+
+.checkbox:checked+label:after {
+  display: block;
+}
+
+.submit-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.2rem;
+}
+
+@media (min-width: 768px) {
+  .white-popup {
+    width: 29.3rem;
+  }
+
+  .modalDialog-form-row {
+    margin-bottom: .9rem;
+  }
+
+  .submit-wrap {
+    margin-top: 1.7rem;
+  }
+
+  .form-container {
+    width: 28.8rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .modal .form-container {
+    margin-left: 0;
+  }
+
+  .form-container {
+    padding-top: .8rem;
+    width: 28.7rem;
+    margin: 0;
+  }
+
+  .modalDialog-form-row {
+    margin-bottom: 2.5rem;
+  }
+
+  .submit-wrap {
+    margin-top: 2.4rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .modal-form__btn {
+    width: 18rem;
+    padding-right: 0;
+  }
+
+  .form-modal__input-container {
+    width: 20.225rem;
+  }
+
+  .checkbox+label:before {
+    left: -2.1rem;
+  }
+
+  .checkbox+label:after {
+    left: -1.9rem;
+  }
+}

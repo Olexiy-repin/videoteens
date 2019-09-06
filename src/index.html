@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="shortcut icon" href="./images/favicon.png" type="image/png">
+  <title>Бесплатный мастер-класс</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  //= ./html/header.html
+  //= ./html/main.html
+
+  <div class="modal">
+    <div class="form-container">
+      <form class="modal-form modalDialog-form" method="post">
+        <h2 class="modal-form__title">Оставьте заявку на участие в бесплатной презентации</h2>
+        <div class="form-modal__input-container">
+          <div class="modalDialog-form-row">
+            <label class="form-modal__label modalDialog-form-row-name">
+              Имя:
+              <input type="text" name="name" required="">
+            </label>
+          </div>
+          <div class="modalDialog-form-row">
+            <label class="form-modal__label modalDialog-form-row-tel">
+              Телефон:
+              <input type="tel" name="phone">
+            </label>
+          </div>
+          <div class="modalDialog-form-row">
+            <label class="form-modal__label modalDialog-form-row-email">
+              E-mail:
+              <input type="email" name="email" required="">
+            </label>
+          </div>
+          <div class="modalDialog-form-check">
+            <input type="checkbox" class="checkbox" id="checkbox" checked="">
+            <label for="checkbox">Принимаю договор оферты и <br> даю согласие на обработку моих <br>
+              персональных данных</label>
+          </div>
+        </div>
+        <input type="hidden" name="utm_source" value="">
+        <input type="hidden" name="utm_medium" value="">
+        <input type="hidden" name="utm_term" value="">
+        <input type="hidden" name="utm_campaign" value="">
+        <input type="hidden" name="utm_content" value="">
+
+        <div class="submit-wrap">
+          <button class="modal-form__btn link_begin submit" type="submit">оставить заявку</button>
+        </div>
+      </form>
+      <button class="close-btn">
+        <svg class="close-btn__svg">
+          <use href="./images/modal/close.svg#close"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <script src="./js/main.js" defer></script>
+</body>
+
+</html>
