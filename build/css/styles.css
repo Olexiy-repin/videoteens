@@ -373,32 +373,32 @@ template {
 
 @font-face {
   font-family: 'GothamB';
-  src: url("../../fonts/GothamBold.woff2") format("woff2"), url("../../fonts/GothamBold.woff") format("woff");
+  src: url("../fonts/GothamBold.woff2") format("woff2"), url("../fonts/GothamBold.woff") format("woff");
 }
 
 @font-face {
   font-family: 'MontserratB';
-  src: url("../../fonts/montserratBold.woff2") format("woff2"), url("../../fonts/montserratBold.woff") format("woff");
+  src: url("../fonts/montserratBold.woff2") format("woff2"), url("../fonts/montserratBold.woff") format("woff");
 }
 
 @font-face {
   font-family: 'ProximaR';
-  src: url("../../fonts/ProximaNova-Regular.woff2") format("woff2"), url("../../fonts/ProximaNova-Regular.woff") format("woff");
+  src: url("../fonts/ProximaNova-Regular.woff2") format("woff2"), url("../fonts/ProximaNova-Regular.woff") format("woff");
 }
 
 @font-face {
   font-family: 'ProximaS';
-  src: url("../../fonts/ProximaNova-Semibold.woff2") format("woff2"), url("../../fonts/ProximaNova-Semibold.woff") format("woff");
+  src: url("../fonts/ProximaNova-Semibold.woff2") format("woff2"), url("../fonts/ProximaNova-Semibold.woff") format("woff");
 }
 
 @font-face {
   font-family: 'ProximaB';
-  src: url("../../fonts/ProximaNova-Bold.woff2") format("woff2"), url("../../fonts/ProximaNova-Bold.woff") format("woff");
+  src: url("../fonts/ProximaNova-Bold.woff2") format("woff2"), url("../fonts/ProximaNova-Bold.woff") format("woff");
 }
 
 @font-face {
   font-family: 'ProximaEB';
-  src: url("../../fonts/ProximaNova-Extrabld.woff2") format("woff2"), url("../../fonts/ProximaNova-Extrabld.woff") format("woff");
+  src: url("../fonts/ProximaNova-Extrabld.woff2") format("woff2"), url("../fonts/ProximaNova-Extrabld.woff") format("woff");
 }
 
 .visually-hidden:not(:focus):not(:active),
@@ -539,7 +539,7 @@ button {
 .tablet::before {
   display: block;
   content: "";
-  background-image: url("../../images/main/tabletBtn.png");
+  background-image: url("../images/main/tabletBtn.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -554,7 +554,7 @@ button {
 .tablet::after {
   display: block;
   content: "";
-  background-image: url("../../images/main/tabletDots.png");
+  background-image: url("../images/main/tabletDots.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -604,7 +604,7 @@ button {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: url("../../images/main/play.png");
+  background-image: url("../images/main/play.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 10px 15px;
@@ -667,7 +667,7 @@ button {
   content: "";
   width: 5.9375rem;
   height: 1.3125rem;
-  background-image: url("../../images/main/awardShadow.png");
+  background-image: url("../images/main/awardShadow.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -965,19 +965,19 @@ button {
   }
 
   .tablet::before {
-    background-image: url("../../images/main/tabletBtn@2x.png");
+    background-image: url("../images/main/tabletBtn@2x.png");
   }
 
   .tablet::after {
-    background-image: url("../../images/main/tabletDots@2x.png");
+    background-image: url("../images/main/tabletDots@2x.png");
   }
 
   .tablet__content picture::before {
-    background-image: url("../../images/main/play@2x.png");
+    background-image: url("../images/main/play@2x.png");
   }
 
   .right-content__award::before {
-    background-image: url("../../images/main/awardShadow@2x.png");
+    background-image: url("../images/main/awardShadow@2x.png");
   }
 }
 
@@ -1023,13 +1023,13 @@ button {
   .tablet::before {
     width: 1.5625rem;
     height: 1.5625rem;
-    background-image: url("../../images/main/tabletBtn_768.png");
+    background-image: url("../images/main/tabletBtn_768.png");
   }
 
   .tablet::after {
     width: 0.4375rem;
     height: 0.875rem;
-    background-image: url("../../images/main/tabletDots_768.png");
+    background-image: url("../images/main/tabletDots_768.png");
   }
 
   .tablet__content {
@@ -1040,7 +1040,7 @@ button {
   .tablet__content picture::before {
     width: 3.1875rem;
     height: 3.1875rem;
-    background-image: url("../../images/main/play_768.png");
+    background-image: url("../images/main/play_768.png");
     background-size: 1rem 1.5625rem;
   }
 
@@ -1131,15 +1131,15 @@ button {
   }
 
   .tablet::before {
-    background-image: url("../../images/main/tabletBtn_768@2x.png");
+    background-image: url("../images/main/tabletBtn_768@2x.png");
   }
 
   .tablet::after {
-    background-image: url("../../images/main/tabletDots_768@2x.png");
+    background-image: url("../images/main/tabletDots_768@2x.png");
   }
 
   .tablet__content picture::before {
-    background-image: url("../../images/main/play_768@2x.png");
+    background-image: url("../images/main/play_768@2x.png");
   }
 }
 
@@ -1214,13 +1214,13 @@ button {
     width: 2rem;
     height: 2rem;
     left: 1.2rem;
-    background-image: url("../../images/main/tabletBtn_1200.png");
+    background-image: url("../images/main/tabletBtn_1200.png");
   }
 
   .tablet::after {
     width: 0.5625rem;
     height: 1.1875rem;
-    background-image: url("../../images/main/tabletDots_1200.png");
+    background-image: url("../images/main/tabletDots_1200.png");
     right: 1.7rem;
   }
 
@@ -1319,11 +1319,11 @@ button {
   }
 
   .tablet::before {
-    background-image: url("../../images/main/tabletBtn_1200@2x.png");
+    background-image: url("../images/main/tabletBtn_1200@2x.png");
   }
 
   .tablet::after {
-    background-image: url("../../images/main/tabletDots_1200@2x.png");
+    background-image: url("../images/main/tabletDots_1200@2x.png");
   }
 }
 
