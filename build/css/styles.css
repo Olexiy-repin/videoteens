@@ -961,7 +961,7 @@ button {
 
 @media (min-width: 320px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 320px) and (min-resolution: 192dpi), (min-width: 320px) and (min-resolution: 2dppx) {
   body {
-    background-image: url("../../images/main/bg@2x.jpg");
+    background-image: url("../images/main/bg@2x.jpg");
   }
 
   .tablet::before {
@@ -983,7 +983,7 @@ button {
 
 @media (min-width: 768px) {
   body {
-    background-image: url("../../images/main/bg_tablet.jpg");
+    background-image: url("../images/main/bg_tablet.jpg");
     background-size: 100% 64rem;
   }
 
@@ -1127,7 +1127,7 @@ button {
 
 @media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 192dpi), (min-width: 768px) and (min-resolution: 2dppx) {
   body {
-    background-image: url("../../images/main/bg_tablet@2x.jpg");
+    background-image: url("../images/main/bg_tablet@2x.jpg");
   }
 
   .tablet::before {
@@ -1145,7 +1145,7 @@ button {
 
 @media (min-width: 1200px) {
   body {
-    background-image: url("../../images/main/bg_desctop.jpg");
+    background-image: url("../images/main/bg_desctop.jpg");
     background-size: cover;
   }
 
@@ -1315,7 +1315,7 @@ button {
 
 @media (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1200px) and (min-resolution: 192dpi), (min-width: 1200px) and (min-resolution: 2dppx) {
   body {
-    background-image: url("../../images/main/bg_desctop@2x.jpg");
+    background-image: url("../images/main/bg_desctop@2x.jpg");
   }
 
   .tablet::before {

@@ -65,14 +65,14 @@ button {
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
     body {
-      background-image: url("../../images/main/bg@2x.jpg");
+      background-image: url("../images/main/bg@2x.jpg");
     }
   }
 }
 
 @media (min-width: 768px) {
   body {
-    background-image: url("../../images/main/bg_tablet.jpg");
+    background-image: url("../images/main/bg_tablet.jpg");
     background-size: 100% 64rem;
   }
 
@@ -85,14 +85,14 @@ button {
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
     body {
-      background-image: url("../../images/main/bg_tablet@2x.jpg");
+      background-image: url("../images/main/bg_tablet@2x.jpg");
     }
   }
 }
 
 @media (min-width: 1200px) {
   body {
-    background-image: url("../../images/main/bg_desctop.jpg");
+    background-image: url("../images/main/bg_desctop.jpg");
     background-size: cover;
   }
 
@@ -105,7 +105,7 @@ button {
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
     body {
-      background-image: url("../../images/main/bg_desctop@2x.jpg");
+      background-image: url("../images/main/bg_desctop@2x.jpg");
     }
   }
 }
